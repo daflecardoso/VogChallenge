@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D2E1E7B4274E4AD8008B6881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */; };
-		D2E1E7B6274E4AD8008B6881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7B5274E4AD8008B6881 /* SceneDelegate.swift */; };
 		D2E1E7B8274E4AD8008B6881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7B7274E4AD8008B6881 /* ViewController.swift */; };
-		D2E1E7BB274E4AD8008B6881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E7B9274E4AD8008B6881 /* Main.storyboard */; };
 		D2E1E7BD274E4ADA008B6881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */; };
 		D2E1E7C0274E4ADA008B6881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E7BE274E4ADA008B6881 /* LaunchScreen.storyboard */; };
 		D2E1E7CB274E4ADB008B6881 /* VogChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7CA274E4ADB008B6881 /* VogChallengeTests.swift */; };
@@ -38,9 +36,7 @@
 /* Begin PBXFileReference section */
 		D2E1E7B0274E4AD8008B6881 /* VogChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VogChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2E1E7B5274E4AD8008B6881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D2E1E7B7274E4AD8008B6881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2E1E7BA274E4AD8008B6881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E1E7BF274E4ADA008B6881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E1E7C1274E4ADA008B6881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */,
-				D2E1E7B5274E4AD8008B6881 /* SceneDelegate.swift */,
 				D2E1E7B7274E4AD8008B6881 /* ViewController.swift */,
-				D2E1E7B9274E4AD8008B6881 /* Main.storyboard */,
 				D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */,
 				D2E1E7BE274E4ADA008B6881 /* LaunchScreen.storyboard */,
 				D2E1E7C1274E4ADA008B6881 /* Info.plist */,
@@ -233,7 +227,6 @@
 			files = (
 				D2E1E7C0274E4ADA008B6881 /* LaunchScreen.storyboard in Resources */,
 				D2E1E7BD274E4ADA008B6881 /* Assets.xcassets in Resources */,
-				D2E1E7BB274E4AD8008B6881 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +253,6 @@
 			files = (
 				D2E1E7B8274E4AD8008B6881 /* ViewController.swift in Sources */,
 				D2E1E7B4274E4AD8008B6881 /* AppDelegate.swift in Sources */,
-				D2E1E7B6274E4AD8008B6881 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D2E1E7B9274E4AD8008B6881 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2E1E7BA274E4AD8008B6881 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D2E1E7BE274E4ADA008B6881 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,9 +428,9 @@
 				INFOPLIST_FILE = VogChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,9 +456,9 @@
 				INFOPLIST_FILE = VogChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

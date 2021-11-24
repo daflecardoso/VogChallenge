@@ -1,0 +1,10 @@
+{
+    "name": "VogChallenge",
+    "color": "#FF0000",
+    "showTutorial": false,
+    "scopes": [
+        "dashboard",
+        "profile",
+        "config"
+    ]
+}
