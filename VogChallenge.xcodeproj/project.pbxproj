@@ -16,6 +16,16 @@
 		D2E1E7CB274E4ADB008B6881 /* VogChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7CA274E4ADB008B6881 /* VogChallengeTests.swift */; };
 		D2E1E7D5274E4ADB008B6881 /* VogChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7D4274E4ADB008B6881 /* VogChallengeUITests.swift */; };
 		D2E1E7D7274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7D6274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift */; };
+		D2E1E7EA274E5096008B6881 /* ProfileAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7E9274E5096008B6881 /* ProfileAPI.swift */; };
+		D2E1E7EE274E5181008B6881 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7ED274E5181008B6881 /* Enviroment.swift */; };
+		D2E1E7F0274E5298008B6881 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7EF274E5298008B6881 /* StringExtensions.swift */; };
+		D2E1E7F2274E5406008B6881 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7F1274E5406008B6881 /* APIProvider.swift */; };
+		D2E1E7F4274E546F008B6881 /* KeyChainCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7F3274E546F008B6881 /* KeyChainCache.swift */; };
+		D2E1E7F6274E5551008B6881 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7F5274E5551008B6881 /* ProfileService.swift */; };
+		D2E1E7FA274E55B4008B6881 /* ProfileResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7F9274E55B4008B6881 /* ProfileResponse.swift */; };
+		D2E1E7FC274E5681008B6881 /* ProfileUpdateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7FB274E5681008B6881 /* ProfileUpdateRequest.swift */; };
+		D2E1E7FE274E56F4008B6881 /* ProfileUpdatePasswordRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7FD274E56F4008B6881 /* ProfileUpdatePasswordRequest.swift */; };
+		D2E1E800274E573C008B6881 /* ProfileUpdatePasswordResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7FF274E573C008B6881 /* ProfileUpdatePasswordResponse.swift */; };
 		E196F6A4C9B0FE982D8E473C /* Pods_VogChallenge_VogChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A64BC1F80370FCBB593D52 /* Pods_VogChallenge_VogChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +65,16 @@
 		D2E1E7D0274E4ADB008B6881 /* VogChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VogChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E1E7D4274E4ADB008B6881 /* VogChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogChallengeUITests.swift; sourceTree = "<group>"; };
 		D2E1E7D6274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2E1E7E9274E5096008B6881 /* ProfileAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAPI.swift; sourceTree = "<group>"; };
+		D2E1E7ED274E5181008B6881 /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+		D2E1E7EF274E5298008B6881 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		D2E1E7F1274E5406008B6881 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		D2E1E7F3274E546F008B6881 /* KeyChainCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainCache.swift; sourceTree = "<group>"; };
+		D2E1E7F5274E5551008B6881 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		D2E1E7F9274E55B4008B6881 /* ProfileResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResponse.swift; sourceTree = "<group>"; };
+		D2E1E7FB274E5681008B6881 /* ProfileUpdateRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUpdateRequest.swift; sourceTree = "<group>"; };
+		D2E1E7FD274E56F4008B6881 /* ProfileUpdatePasswordRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUpdatePasswordRequest.swift; sourceTree = "<group>"; };
+		D2E1E7FF274E573C008B6881 /* ProfileUpdatePasswordResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUpdatePasswordResponse.swift; sourceTree = "<group>"; };
 		E7C4024E93DFBD64628187B3 /* Pods-VogChallenge-VogChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -135,6 +155,11 @@
 		D2E1E7B2274E4AD8008B6881 /* VogChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				D2E1E7E5274E5013008B6881 /* Data */,
+				D2E1E7E7274E5023008B6881 /* Components */,
+				D2E1E7E8274E502A008B6881 /* Views */,
+				D2E1E7EC274E5112008B6881 /* Extensions */,
+				D2E1E7EB274E5107008B6881 /* Core */,
 				D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */,
 				D2E1E7B7274E4AD8008B6881 /* ViewController.swift */,
 				D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */,
@@ -159,6 +184,83 @@
 				D2E1E7D6274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift */,
 			);
 			path = VogChallengeUITests;
+			sourceTree = "<group>";
+		};
+		D2E1E7E4274E500B008B6881 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E7F8274E5592008B6881 /* Profile */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D2E1E7E5274E5013008B6881 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E7E4274E500B008B6881 /* Domain */,
+				D2E1E7E6274E501A008B6881 /* Service */,
+				D2E1E7F1274E5406008B6881 /* APIProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D2E1E7E6274E501A008B6881 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E801274E5786008B6881 /* Profile */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D2E1E7E7274E5023008B6881 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D2E1E7E8274E502A008B6881 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D2E1E7EB274E5107008B6881 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E7ED274E5181008B6881 /* Enviroment.swift */,
+				D2E1E7F3274E546F008B6881 /* KeyChainCache.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D2E1E7EC274E5112008B6881 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E7EF274E5298008B6881 /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D2E1E7F8274E5592008B6881 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E7F9274E55B4008B6881 /* ProfileResponse.swift */,
+				D2E1E7FB274E5681008B6881 /* ProfileUpdateRequest.swift */,
+				D2E1E7FD274E56F4008B6881 /* ProfileUpdatePasswordRequest.swift */,
+				D2E1E7FF274E573C008B6881 /* ProfileUpdatePasswordResponse.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D2E1E801274E5786008B6881 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E7E9274E5096008B6881 /* ProfileAPI.swift */,
+				D2E1E7F5274E5551008B6881 /* ProfileService.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,7 +502,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E1E7B8274E4AD8008B6881 /* ViewController.swift in Sources */,
+				D2E1E800274E573C008B6881 /* ProfileUpdatePasswordResponse.swift in Sources */,
 				D2E1E7B4274E4AD8008B6881 /* AppDelegate.swift in Sources */,
+				D2E1E7FC274E5681008B6881 /* ProfileUpdateRequest.swift in Sources */,
+				D2E1E7F0274E5298008B6881 /* StringExtensions.swift in Sources */,
+				D2E1E7EE274E5181008B6881 /* Enviroment.swift in Sources */,
+				D2E1E7F6274E5551008B6881 /* ProfileService.swift in Sources */,
+				D2E1E7FE274E56F4008B6881 /* ProfileUpdatePasswordRequest.swift in Sources */,
+				D2E1E7FA274E55B4008B6881 /* ProfileResponse.swift in Sources */,
+				D2E1E7EA274E5096008B6881 /* ProfileAPI.swift in Sources */,
+				D2E1E7F4274E546F008B6881 /* KeyChainCache.swift in Sources */,
+				D2E1E7F2274E5406008B6881 /* APIProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +682,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "https://api.foo.com";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DX5JM8SFG9;
@@ -599,6 +712,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "https://api.foo.com";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DX5JM8SFG9;
