@@ -10,7 +10,6 @@
 		2265B640ABF4CDA7BC6B0B1F /* Pods_VogChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */; };
 		CF2CC000EEC7060CC8EB5174 /* Pods_VogChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0041B58438DE7963132BFC5B /* Pods_VogChallengeTests.framework */; };
 		D2E1E7B4274E4AD8008B6881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */; };
-		D2E1E7B8274E4AD8008B6881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7B7274E4AD8008B6881 /* ViewController.swift */; };
 		D2E1E7BD274E4ADA008B6881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */; };
 		D2E1E7C0274E4ADA008B6881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E7BE274E4ADA008B6881 /* LaunchScreen.storyboard */; };
 		D2E1E7CB274E4ADB008B6881 /* VogChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7CA274E4ADB008B6881 /* VogChallengeTests.swift */; };
@@ -37,6 +36,11 @@
 		D2E1E818274E5CD2008B6881 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E817274E5CD2008B6881 /* NSObjectExtensions.swift */; };
 		D2E1E81A274E5D15008B6881 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E819274E5D15008B6881 /* Constants.swift */; };
 		D2E1E81C274E5F0F008B6881 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E81B274E5F0F008B6881 /* UIColorExtensions.swift */; };
+		D2E1E81E274E60AE008B6881 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E81D274E60AE008B6881 /* DashboardViewModel.swift */; };
+		D2E1E820274E6140008B6881 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E81F274E6140008B6881 /* AppCoordinator.swift */; };
+		D2E1E822274E62DB008B6881 /* VogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E821274E62DB008B6881 /* VogButton.swift */; };
+		D2E1E824274E6481008B6881 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E823274E6481008B6881 /* UIViewExtensions.swift */; };
+		D2E1E826274E6603008B6881 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E825274E6603008B6881 /* UIViewControllerExtensions.swift */; };
 		E196F6A4C9B0FE982D8E473C /* Pods_VogChallenge_VogChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A64BC1F80370FCBB593D52 /* Pods_VogChallenge_VogChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +71,6 @@
 		C30C170741ECA21D487045CA /* Pods-VogChallenge-VogChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge-VogChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D2E1E7B0274E4AD8008B6881 /* VogChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VogChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2E1E7B7274E4AD8008B6881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E1E7BF274E4ADA008B6881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E1E7C1274E4ADA008B6881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +100,11 @@
 		D2E1E817274E5CD2008B6881 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
 		D2E1E819274E5D15008B6881 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D2E1E81B274E5F0F008B6881 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		D2E1E81D274E60AE008B6881 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		D2E1E81F274E6140008B6881 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D2E1E821274E62DB008B6881 /* VogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogButton.swift; sourceTree = "<group>"; };
+		D2E1E823274E6481008B6881 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		D2E1E825274E6603008B6881 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		E7C4024E93DFBD64628187B3 /* Pods-VogChallenge-VogChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -185,7 +193,6 @@
 				D2E1E7EC274E5112008B6881 /* Extensions */,
 				D2E1E7EB274E5107008B6881 /* Core */,
 				D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */,
-				D2E1E7B7274E4AD8008B6881 /* ViewController.swift */,
 				D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */,
 				D2E1E7BE274E4ADA008B6881 /* LaunchScreen.storyboard */,
 				D2E1E7C1274E4ADA008B6881 /* Info.plist */,
@@ -240,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				D2E1E815274E5C9C008B6881 /* CustomLoadingView.swift */,
+				D2E1E821274E62DB008B6881 /* VogButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -257,6 +265,7 @@
 			children = (
 				D2E1E7ED274E5181008B6881 /* Enviroment.swift */,
 				D2E1E7F3274E546F008B6881 /* KeyChainCache.swift */,
+				D2E1E81F274E6140008B6881 /* AppCoordinator.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -267,6 +276,8 @@
 				D2E1E7EF274E5298008B6881 /* StringExtensions.swift */,
 				D2E1E817274E5CD2008B6881 /* NSObjectExtensions.swift */,
 				D2E1E81B274E5F0F008B6881 /* UIColorExtensions.swift */,
+				D2E1E823274E6481008B6881 /* UIViewExtensions.swift */,
+				D2E1E825274E6603008B6881 /* UIViewControllerExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -295,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				D2E1E803274E598F008B6881 /* DashboardViewController.swift */,
+				D2E1E81D274E60AE008B6881 /* DashboardViewModel.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -566,11 +578,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E1E7B8274E4AD8008B6881 /* ViewController.swift in Sources */,
 				D2E1E81A274E5D15008B6881 /* Constants.swift in Sources */,
+				D2E1E820274E6140008B6881 /* AppCoordinator.swift in Sources */,
 				D2E1E800274E573C008B6881 /* ProfileUpdatePasswordResponse.swift in Sources */,
 				D2E1E80B274E5A4B008B6881 /* HandleError.swift in Sources */,
 				D2E1E7B4274E4AD8008B6881 /* AppDelegate.swift in Sources */,
+				D2E1E822274E62DB008B6881 /* VogButton.swift in Sources */,
 				D2E1E7FC274E5681008B6881 /* ProfileUpdateRequest.swift in Sources */,
 				D2E1E7F0274E5298008B6881 /* StringExtensions.swift in Sources */,
 				D2E1E807274E59AC008B6881 /* BaseViewController.swift in Sources */,
@@ -581,10 +594,13 @@
 				D2E1E818274E5CD2008B6881 /* NSObjectExtensions.swift in Sources */,
 				D2E1E7FA274E55B4008B6881 /* ProfileResponse.swift in Sources */,
 				D2E1E814274E5C4F008B6881 /* ServiceError.swift in Sources */,
+				D2E1E824274E6481008B6881 /* UIViewExtensions.swift in Sources */,
+				D2E1E81E274E60AE008B6881 /* DashboardViewModel.swift in Sources */,
 				D2E1E81C274E5F0F008B6881 /* UIColorExtensions.swift in Sources */,
 				D2E1E809274E59E3008B6881 /* BaseViewModel.swift in Sources */,
 				D2E1E810274E5B00008B6881 /* ResponseApiError.swift in Sources */,
 				D2E1E812274E5B9A008B6881 /* Reachability.swift in Sources */,
+				D2E1E826274E6603008B6881 /* UIViewControllerExtensions.swift in Sources */,
 				D2E1E7EA274E5096008B6881 /* ProfileAPI.swift in Sources */,
 				D2E1E7F4274E546F008B6881 /* KeyChainCache.swift in Sources */,
 				D2E1E816274E5C9C008B6881 /* CustomLoadingView.swift in Sources */,

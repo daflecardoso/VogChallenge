@@ -9,4 +9,44 @@ import Foundation
 
 class DashboardViewController: BaseViewController {
     
+    private lazy var profileButton = VogButton().apply {
+        $0.title = "PROFILE"
+        $0.setTitleColor(.red, for: .normal)
+        $0.type = .outlined
+        $0.rx.tap.bind { [unowned self] in
+            
+        }.disposed(by: disposeBag)
+    }
+    
+    override var baseViewModel: BaseViewModel? {
+        return viewModel
+    }
+    
+    private let viewModel: DashboardViewModel
+    
+    internal init(viewModel: DashboardViewModel) {
+        self.viewModel = viewModel
+        super.init()
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setup()
+    }
+    
+    func setup() {
+        setupView()
+        setupConstraints()
+    }
+    
+    private func setupView() {
+        title = "Dashboard"
+        view.backgroundColor = .bw
+    }
+    
+    private func setupConstraints() {
+        view.addSubview(profileButton) {
+            $0.centerX.centerY.equalToSuperview()
+        }
+    }
 }

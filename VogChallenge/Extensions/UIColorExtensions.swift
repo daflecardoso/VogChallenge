@@ -24,6 +24,21 @@ extension UIColor {
         }
     }()
     
+    public static var bw: UIColor = {
+        if #available(iOS 13, *) {
+            return UIColor { (UITraitCollection: UITraitCollection) -> UIColor in
+                if UITraitCollection.userInterfaceStyle == .dark {
+                    return .black
+                    
+                } else {
+                    return .white
+                }
+            }
+        } else {
+            return .white
+        }
+    }()
+    
     public static var headerNavigationTint: UIColor = {
     
         let light = UIColor(red: 249, green: 250, blue: 251)
