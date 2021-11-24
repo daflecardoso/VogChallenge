@@ -41,6 +41,10 @@
 		D2E1E822274E62DB008B6881 /* VogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E821274E62DB008B6881 /* VogButton.swift */; };
 		D2E1E824274E6481008B6881 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E823274E6481008B6881 /* UIViewExtensions.swift */; };
 		D2E1E826274E6603008B6881 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E825274E6603008B6881 /* UIViewControllerExtensions.swift */; };
+		D2E1E829274E6862008B6881 /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E828274E6862008B6881 /* AuthAPI.swift */; };
+		D2E1E82C274E68C1008B6881 /* SignInRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E82B274E68C1008B6881 /* SignInRequest.swift */; };
+		D2E1E82E274E6913008B6881 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E82D274E6913008B6881 /* AuthService.swift */; };
+		D2E1E830274E693F008B6881 /* SignInResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E82F274E693F008B6881 /* SignInResponse.swift */; };
 		E196F6A4C9B0FE982D8E473C /* Pods_VogChallenge_VogChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A64BC1F80370FCBB593D52 /* Pods_VogChallenge_VogChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +109,10 @@
 		D2E1E821274E62DB008B6881 /* VogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogButton.swift; sourceTree = "<group>"; };
 		D2E1E823274E6481008B6881 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		D2E1E825274E6603008B6881 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		D2E1E828274E6862008B6881 /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		D2E1E82B274E68C1008B6881 /* SignInRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRequest.swift; sourceTree = "<group>"; };
+		D2E1E82D274E6913008B6881 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		D2E1E82F274E693F008B6881 /* SignInResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInResponse.swift; sourceTree = "<group>"; };
 		E7C4024E93DFBD64628187B3 /* Pods-VogChallenge-VogChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -220,6 +228,7 @@
 		D2E1E7E4274E500B008B6881 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				D2E1E82A274E68B3008B6881 /* Auth */,
 				D2E1E7F8274E5592008B6881 /* Profile */,
 			);
 			path = Domain;
@@ -238,6 +247,7 @@
 		D2E1E7E6274E501A008B6881 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				D2E1E827274E6850008B6881 /* Auth */,
 				D2E1E801274E5786008B6881 /* Profile */,
 			);
 			path = Service;
@@ -338,6 +348,24 @@
 				D2E1E813274E5C4F008B6881 /* ServiceError.swift */,
 			);
 			path = ErrorHandling;
+			sourceTree = "<group>";
+		};
+		D2E1E827274E6850008B6881 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E828274E6862008B6881 /* AuthAPI.swift */,
+				D2E1E82D274E6913008B6881 /* AuthService.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D2E1E82A274E68B3008B6881 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E82B274E68C1008B6881 /* SignInRequest.swift */,
+				D2E1E82F274E693F008B6881 /* SignInResponse.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -598,11 +626,15 @@
 				D2E1E81E274E60AE008B6881 /* DashboardViewModel.swift in Sources */,
 				D2E1E81C274E5F0F008B6881 /* UIColorExtensions.swift in Sources */,
 				D2E1E809274E59E3008B6881 /* BaseViewModel.swift in Sources */,
+				D2E1E829274E6862008B6881 /* AuthAPI.swift in Sources */,
 				D2E1E810274E5B00008B6881 /* ResponseApiError.swift in Sources */,
 				D2E1E812274E5B9A008B6881 /* Reachability.swift in Sources */,
 				D2E1E826274E6603008B6881 /* UIViewControllerExtensions.swift in Sources */,
 				D2E1E7EA274E5096008B6881 /* ProfileAPI.swift in Sources */,
 				D2E1E7F4274E546F008B6881 /* KeyChainCache.swift in Sources */,
+				D2E1E82C274E68C1008B6881 /* SignInRequest.swift in Sources */,
+				D2E1E82E274E6913008B6881 /* AuthService.swift in Sources */,
+				D2E1E830274E693F008B6881 /* SignInResponse.swift in Sources */,
 				D2E1E816274E5C9C008B6881 /* CustomLoadingView.swift in Sources */,
 				D2E1E7F2274E5406008B6881 /* APIProvider.swift in Sources */,
 			);

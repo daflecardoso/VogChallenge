@@ -57,9 +57,9 @@ class BaseViewController: UIViewController {
     }
     
     internal func setupLoading() {
-        self.view.addSubview(hud)
+        view.addSubview(hud)
         hud.translatesAutoresizingMaskIntoConstraints = false
-        self.view.addConstraints([
+        view.addConstraints([
             hud.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             hud.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
@@ -100,20 +100,24 @@ class BaseViewController: UIViewController {
     }
     
     internal func showBanner(title: String? = nil, message: String, style: BannerStyle, duration: TimeInterval = 3) {
-        self.banner?.dismiss()
-        let icarImage = UIImageView(image: UIImage(named: "AppIcon")).apply {
+        banner?.dismiss()
+        let logo = UIImageView(image: UIImage(named: "AppIcon")).apply {
             let height: CGFloat = 24
             $0.snp.makeConstraints { $0.width.height.equalTo(height) }
             $0.layer.cornerRadius = height / 2
             $0.clipsToBounds = true
         }
-        self.banner = GrowingNotificationBanner(title: title,
+        banner = GrowingNotificationBanner(title: title,
                                                 subtitle: message,
-                                                leftView: icarImage,
+                                                leftView: logo,
                                                 rightView: nil,
                                                 style: style,
                                                 colors: nil)
-        self.banner?.duration = duration
-        self.banner?.show()
+        banner?.duration = duration
+        banner?.show()
+    }
+    
+    deinit {
+        debugPrint("your screen \(self) has been removed from memory")
     }
 }

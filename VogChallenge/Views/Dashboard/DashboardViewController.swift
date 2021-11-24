@@ -10,7 +10,7 @@ import Foundation
 class DashboardViewController: BaseViewController {
     
     private lazy var profileButton = VogButton().apply {
-        $0.title = "PROFILE"
+        $0.title = "Profile"
         $0.setTitleColor(.red, for: .normal)
         $0.type = .outlined
         $0.rx.tap.bind { [unowned self] in
