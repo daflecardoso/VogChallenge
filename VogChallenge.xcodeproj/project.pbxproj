@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2265B640ABF4CDA7BC6B0B1F /* Pods_VogChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */; };
+		CF2CC000EEC7060CC8EB5174 /* Pods_VogChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0041B58438DE7963132BFC5B /* Pods_VogChallengeTests.framework */; };
 		D2E1E7B4274E4AD8008B6881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */; };
 		D2E1E7B8274E4AD8008B6881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7B7274E4AD8008B6881 /* ViewController.swift */; };
 		D2E1E7BD274E4ADA008B6881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		D2E1E7CB274E4ADB008B6881 /* VogChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7CA274E4ADB008B6881 /* VogChallengeTests.swift */; };
 		D2E1E7D5274E4ADB008B6881 /* VogChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7D4274E4ADB008B6881 /* VogChallengeUITests.swift */; };
 		D2E1E7D7274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7D6274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift */; };
+		E196F6A4C9B0FE982D8E473C /* Pods_VogChallenge_VogChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A64BC1F80370FCBB593D52 /* Pods_VogChallenge_VogChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0041B58438DE7963132BFC5B /* Pods_VogChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A64BC1F80370FCBB593D52 /* Pods_VogChallenge_VogChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogChallenge_VogChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		776F5DF762A6D8DE2C41E641 /* Pods-VogChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge.debug.xcconfig"; path = "Target Support Files/Pods-VogChallenge/Pods-VogChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		846B3F2992F546043BCC40CA /* Pods-VogChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-VogChallengeTests/Pods-VogChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		993D4F460972B0F20D5D1445 /* Pods-VogChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-VogChallengeTests/Pods-VogChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFDBBBB8BD01D6C70DE7832A /* Pods-VogChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge.release.xcconfig"; path = "Target Support Files/Pods-VogChallenge/Pods-VogChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		C30C170741ECA21D487045CA /* Pods-VogChallenge-VogChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge-VogChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D2E1E7B0274E4AD8008B6881 /* VogChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VogChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E1E7B7274E4AD8008B6881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +55,8 @@
 		D2E1E7D0274E4ADB008B6881 /* VogChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VogChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E1E7D4274E4ADB008B6881 /* VogChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogChallengeUITests.swift; sourceTree = "<group>"; };
 		D2E1E7D6274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7C4024E93DFBD64628187B3 /* Pods-VogChallenge-VogChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2265B640ABF4CDA7BC6B0B1F /* Pods_VogChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2CC000EEC7060CC8EB5174 /* Pods_VogChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E196F6A4C9B0FE982D8E473C /* Pods_VogChallenge_VogChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CCED0361F5AFDB7D9CD4309 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				776F5DF762A6D8DE2C41E641 /* Pods-VogChallenge.debug.xcconfig */,
+				BFDBBBB8BD01D6C70DE7832A /* Pods-VogChallenge.release.xcconfig */,
+				C30C170741ECA21D487045CA /* Pods-VogChallenge-VogChallengeUITests.debug.xcconfig */,
+				E7C4024E93DFBD64628187B3 /* Pods-VogChallenge-VogChallengeUITests.release.xcconfig */,
+				993D4F460972B0F20D5D1445 /* Pods-VogChallengeTests.debug.xcconfig */,
+				846B3F2992F546043BCC40CA /* Pods-VogChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A1EFCF040AE483CB6AAC1376 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */,
+				56A64BC1F80370FCBB593D52 /* Pods_VogChallenge_VogChallengeUITests.framework */,
+				0041B58438DE7963132BFC5B /* Pods_VogChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2E1E7A7274E4AD8008B6881 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +117,8 @@
 				D2E1E7C9274E4ADB008B6881 /* VogChallengeTests */,
 				D2E1E7D3274E4ADB008B6881 /* VogChallengeUITests */,
 				D2E1E7B1274E4AD8008B6881 /* Products */,
+				1CCED0361F5AFDB7D9CD4309 /* Pods */,
+				A1EFCF040AE483CB6AAC1376 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2E1E7DA274E4ADB008B6881 /* Build configuration list for PBXNativeTarget "VogChallenge" */;
 			buildPhases = (
+				985E81093EC20A4EB79D4EE5 /* [CP] Check Pods Manifest.lock */,
 				D2E1E7AC274E4AD8008B6881 /* Sources */,
 				D2E1E7AD274E4AD8008B6881 /* Frameworks */,
 				D2E1E7AE274E4AD8008B6881 /* Resources */,
+				21E17D0B069581EEA6743A84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2E1E7DD274E4ADB008B6881 /* Build configuration list for PBXNativeTarget "VogChallengeTests" */;
 			buildPhases = (
+				DA01AB19C74C214A3EE2D322 /* [CP] Check Pods Manifest.lock */,
 				D2E1E7C2274E4ADB008B6881 /* Sources */,
 				D2E1E7C3274E4ADB008B6881 /* Frameworks */,
 				D2E1E7C4274E4ADB008B6881 /* Resources */,
@@ -163,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2E1E7E0274E4ADB008B6881 /* Build configuration list for PBXNativeTarget "VogChallengeUITests" */;
 			buildPhases = (
+				2B09C909AD0BC0763D3D2D62 /* [CP] Check Pods Manifest.lock */,
 				D2E1E7CC274E4ADB008B6881 /* Sources */,
 				D2E1E7CD274E4ADB008B6881 /* Frameworks */,
 				D2E1E7CE274E4ADB008B6881 /* Resources */,
+				8995E063F7FC3FA911DEB1B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,6 +290,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21E17D0B069581EEA6743A84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VogChallenge/Pods-VogChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VogChallenge/Pods-VogChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VogChallenge/Pods-VogChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B09C909AD0BC0763D3D2D62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VogChallenge-VogChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8995E063F7FC3FA911DEB1B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		985E81093EC20A4EB79D4EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VogChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA01AB19C74C214A3EE2D322 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VogChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2E1E7AC274E4AD8008B6881 /* Sources */ = {
@@ -418,6 +566,7 @@
 		};
 		D2E1E7DB274E4ADB008B6881 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776F5DF762A6D8DE2C41E641 /* Pods-VogChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,6 +595,7 @@
 		};
 		D2E1E7DC274E4ADB008B6881 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFDBBBB8BD01D6C70DE7832A /* Pods-VogChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +624,7 @@
 		};
 		D2E1E7DE274E4ADB008B6881 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993D4F460972B0F20D5D1445 /* Pods-VogChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +650,7 @@
 		};
 		D2E1E7DF274E4ADB008B6881 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846B3F2992F546043BCC40CA /* Pods-VogChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +676,7 @@
 		};
 		D2E1E7E1274E4ADB008B6881 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30C170741ECA21D487045CA /* Pods-VogChallenge-VogChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +700,7 @@
 		};
 		D2E1E7E2274E4ADB008B6881 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C4024E93DFBD64628187B3 /* Pods-VogChallenge-VogChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
