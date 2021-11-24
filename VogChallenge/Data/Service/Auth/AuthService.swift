@@ -14,7 +14,10 @@ protocol AuthServiceContract {
 
 class AuthService: AuthServiceContract {
     
-    private let provider = ApiProvider<AuthAPI>()
+    /**
+    Stub true use mock response
+     */
+    private let provider = ApiProvider<AuthAPI>(stub: true)
     
     func signIn(request: SignInRequest) -> Single<SingInResponse> {
         return provider.rx.request(.signIn(request)).map(SingInResponse.self)

@@ -19,7 +19,7 @@ class ApiProvider<Target: TargetType>: MoyaProvider<Target> {
         let plugins: [PluginType] = [plugin]
         let networkLogger: [PluginType] = self.logEnabled ? plugins : []
         if self.enabledMock || stub {
-            super.init(stubClosure: MoyaProvider.immediatelyStub(_:),
+            super.init(stubClosure: MoyaProvider.delayedStub(1),
                        plugins: networkLogger)
         } else {
             super.init(plugins: networkLogger)

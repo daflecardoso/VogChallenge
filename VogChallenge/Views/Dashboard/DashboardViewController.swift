@@ -41,7 +41,6 @@ class DashboardViewController: BaseViewController {
     
     private func setupView() {
         title = "Dashboard"
-        view.backgroundColor = .bw
     }
     
     private func setupConstraints() {

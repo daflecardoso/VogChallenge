@@ -18,16 +18,32 @@ class AppCoordinator {
         self.window = window
     }
     
-    func makeDashboardViewController() -> DashboardViewController {
+    private func makeSignInViewController() -> SignInViewController {
+        let authService = AuthService()
+        let keychain = KeyChainCache()
+        let viewModel = SignInViewModel(authService: authService, keychain: keychain)
+        return SignInViewController(viewModel: viewModel)
+    }
+    
+    private func makeDashboardViewController() -> DashboardViewController {
         let viewModel = DashboardViewModel()
         return DashboardViewController(viewModel: viewModel)
     }
     
     func start() {
-        self.navigateToHome()
+        self.navigateToSignIn()
     }
     
-    private func navigateToHome() {
+    private func navigateToSignIn() {
+        let viewController = makeSignInViewController()
+        let navigation = UINavigationController(rootViewController: viewController)
+        navigation.navigationBar.prefersLargeTitles = true
+        
+        window.rootViewController = navigation
+        window.makeKeyAndVisible()
+    }
+    
+    func navigateToHome() {
         let viewController = makeDashboardViewController()
         let navigation = UINavigationController(rootViewController: viewController)
         navigation.navigationBar.prefersLargeTitles = true

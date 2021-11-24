@@ -15,4 +15,12 @@ extension String {
         }
         return _url
     }
+    
+    var jsonData: Data {
+        guard let path = Bundle.main.path(forResource: self, ofType: "json"),
+            let data = try? Data(contentsOf: URL(fileURLWithPath: path)) else {
+            return Data()
+        }
+        return data
+    }
 }

@@ -9,4 +9,8 @@ import Foundation
 
 struct SignInRequest: Codable {
     let user, password: String
+    
+    var isValid: Bool {
+        return !user.isEmpty && !password.isEmpty
+    }
 }

@@ -39,6 +39,13 @@ extension AuthAPI: TargetType {
         }
     }
     
+    var sampleData: Data {
+        switch self {
+        case .signIn:
+            return "signin_success_response".jsonData
+        }
+    }
+    
     var headers: [String : String]? {
         return nil
     }

@@ -45,6 +45,13 @@
 		D2E1E82C274E68C1008B6881 /* SignInRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E82B274E68C1008B6881 /* SignInRequest.swift */; };
 		D2E1E82E274E6913008B6881 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E82D274E6913008B6881 /* AuthService.swift */; };
 		D2E1E830274E693F008B6881 /* SignInResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E82F274E693F008B6881 /* SignInResponse.swift */; };
+		D2E1E833274E6A1B008B6881 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E832274E6A1B008B6881 /* SignInViewController.swift */; };
+		D2E1E835274E6A45008B6881 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E834274E6A45008B6881 /* SignInViewModel.swift */; };
+		D2E1E837274E6D15008B6881 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E836274E6D15008B6881 /* UILabelExtensions.swift */; };
+		D2E1E839274E6E4D008B6881 /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E838274E6E4D008B6881 /* UITextFieldExtensions.swift */; };
+		D2E1E83B274E7077008B6881 /* SingleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E83A274E7077008B6881 /* SingleExtensions.swift */; };
+		D2E1E83E274E746F008B6881 /* signin_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E83D274E746F008B6881 /* signin_success_response.json */; };
+		D2E1E841274E74AA008B6881 /* signin_error_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E840274E74AA008B6881 /* signin_error_response.json */; };
 		E196F6A4C9B0FE982D8E473C /* Pods_VogChallenge_VogChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A64BC1F80370FCBB593D52 /* Pods_VogChallenge_VogChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +120,13 @@
 		D2E1E82B274E68C1008B6881 /* SignInRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRequest.swift; sourceTree = "<group>"; };
 		D2E1E82D274E6913008B6881 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		D2E1E82F274E693F008B6881 /* SignInResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInResponse.swift; sourceTree = "<group>"; };
+		D2E1E832274E6A1B008B6881 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D2E1E834274E6A45008B6881 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		D2E1E836274E6D15008B6881 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		D2E1E838274E6E4D008B6881 /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		D2E1E83A274E7077008B6881 /* SingleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExtensions.swift; sourceTree = "<group>"; };
+		D2E1E83D274E746F008B6881 /* signin_success_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = signin_success_response.json; sourceTree = "<group>"; };
+		D2E1E840274E74AA008B6881 /* signin_error_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = signin_error_response.json; sourceTree = "<group>"; };
 		E7C4024E93DFBD64628187B3 /* Pods-VogChallenge-VogChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -200,6 +214,7 @@
 				D2E1E7E8274E502A008B6881 /* Views */,
 				D2E1E7EC274E5112008B6881 /* Extensions */,
 				D2E1E7EB274E5107008B6881 /* Core */,
+				D2E1E83C274E7453008B6881 /* Mocks */,
 				D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */,
 				D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */,
 				D2E1E7BE274E4ADA008B6881 /* LaunchScreen.storyboard */,
@@ -265,6 +280,7 @@
 		D2E1E7E8274E502A008B6881 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D2E1E831274E6A0A008B6881 /* SignIn */,
 				D2E1E802274E5969008B6881 /* Dashboard */,
 			);
 			path = Views;
@@ -288,6 +304,9 @@
 				D2E1E81B274E5F0F008B6881 /* UIColorExtensions.swift */,
 				D2E1E823274E6481008B6881 /* UIViewExtensions.swift */,
 				D2E1E825274E6603008B6881 /* UIViewControllerExtensions.swift */,
+				D2E1E836274E6D15008B6881 /* UILabelExtensions.swift */,
+				D2E1E838274E6E4D008B6881 /* UITextFieldExtensions.swift */,
+				D2E1E83A274E7077008B6881 /* SingleExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -366,6 +385,32 @@
 				D2E1E82F274E693F008B6881 /* SignInResponse.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		D2E1E831274E6A0A008B6881 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E832274E6A1B008B6881 /* SignInViewController.swift */,
+				D2E1E834274E6A45008B6881 /* SignInViewModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		D2E1E83C274E7453008B6881 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E83F274E748B008B6881 /* SignIn */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		D2E1E83F274E748B008B6881 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E83D274E746F008B6881 /* signin_success_response.json */,
+				D2E1E840274E74AA008B6881 /* signin_error_response.json */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,7 +523,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E1E7C0274E4ADA008B6881 /* LaunchScreen.storyboard in Resources */,
+				D2E1E841274E74AA008B6881 /* signin_error_response.json in Resources */,
 				D2E1E7BD274E4ADA008B6881 /* Assets.xcassets in Resources */,
+				D2E1E83E274E746F008B6881 /* signin_success_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,13 +656,17 @@
 				D2E1E81A274E5D15008B6881 /* Constants.swift in Sources */,
 				D2E1E820274E6140008B6881 /* AppCoordinator.swift in Sources */,
 				D2E1E800274E573C008B6881 /* ProfileUpdatePasswordResponse.swift in Sources */,
+				D2E1E83B274E7077008B6881 /* SingleExtensions.swift in Sources */,
 				D2E1E80B274E5A4B008B6881 /* HandleError.swift in Sources */,
+				D2E1E837274E6D15008B6881 /* UILabelExtensions.swift in Sources */,
 				D2E1E7B4274E4AD8008B6881 /* AppDelegate.swift in Sources */,
 				D2E1E822274E62DB008B6881 /* VogButton.swift in Sources */,
 				D2E1E7FC274E5681008B6881 /* ProfileUpdateRequest.swift in Sources */,
 				D2E1E7F0274E5298008B6881 /* StringExtensions.swift in Sources */,
+				D2E1E835274E6A45008B6881 /* SignInViewModel.swift in Sources */,
 				D2E1E807274E59AC008B6881 /* BaseViewController.swift in Sources */,
 				D2E1E7EE274E5181008B6881 /* Enviroment.swift in Sources */,
+				D2E1E839274E6E4D008B6881 /* UITextFieldExtensions.swift in Sources */,
 				D2E1E7F6274E5551008B6881 /* ProfileService.swift in Sources */,
 				D2E1E804274E598F008B6881 /* DashboardViewController.swift in Sources */,
 				D2E1E7FE274E56F4008B6881 /* ProfileUpdatePasswordRequest.swift in Sources */,
@@ -634,6 +685,7 @@
 				D2E1E7F4274E546F008B6881 /* KeyChainCache.swift in Sources */,
 				D2E1E82C274E68C1008B6881 /* SignInRequest.swift in Sources */,
 				D2E1E82E274E6913008B6881 /* AuthService.swift in Sources */,
+				D2E1E833274E6A1B008B6881 /* SignInViewController.swift in Sources */,
 				D2E1E830274E693F008B6881 /* SignInResponse.swift in Sources */,
 				D2E1E816274E5C9C008B6881 /* CustomLoadingView.swift in Sources */,
 				D2E1E7F2274E5406008B6881 /* APIProvider.swift in Sources */,

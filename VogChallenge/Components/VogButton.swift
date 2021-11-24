@@ -38,14 +38,27 @@ class VogButton: UIButton {
     
     private func setup() {
         contentEdgeInsets = .init(top: 8, left: 12, bottom: 8, right: 12)
+        setTitleColor(.lightGray, for: .disabled)
     }
     
     private func update() {
         switch type {
         case .outlined:
-            layer.cornerRadius = 2
+            layer.cornerRadius = 4
             layer.borderWidth = 1
             layer.borderColor = titleColor(for: .normal)?.cgColor
+        }
+    }
+    
+    func setBackgroundColor(color: UIColor, forState: UIControl.State) {
+        self.clipsToBounds = true
+        UIGraphicsBeginImageContext(CGSize(width: 1, height: 1))
+        if let context = UIGraphicsGetCurrentContext() {
+            context.setFillColor(color.cgColor)
+            context.fill(CGRect(x: 0, y: 0, width: 1, height: 1))
+            let colorImage = UIGraphicsGetImageFromCurrentImageContext()
+            UIGraphicsEndImageContext()
+            self.setBackgroundImage(colorImage, for: forState)
         }
     }
 }
