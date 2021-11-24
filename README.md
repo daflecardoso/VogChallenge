@@ -1,6 +1,6 @@
 ## Architecture:
 
-![Architecture](https://github.com/daflecardoso/VogChallenge/blob/master/architecture.png)
+![Architecture](https://github.com/daflecardoso/VogChallenge/blob/main/architecture.png)
 
 ## Installation steps:
 
