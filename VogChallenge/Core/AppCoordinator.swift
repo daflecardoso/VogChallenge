@@ -51,4 +51,9 @@ class AppCoordinator {
         window.rootViewController = navigation
         window.makeKeyAndVisible()
     }
+    
+    func makeProfileViewController() -> ProfileViewController {
+        let viewModel = ProfileViewModel()
+        return ProfileViewController(viewModel: viewModel)
+    }
 }

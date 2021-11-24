@@ -52,6 +52,14 @@
 		D2E1E83B274E7077008B6881 /* SingleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E83A274E7077008B6881 /* SingleExtensions.swift */; };
 		D2E1E83E274E746F008B6881 /* signin_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E83D274E746F008B6881 /* signin_success_response.json */; };
 		D2E1E841274E74AA008B6881 /* signin_error_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E840274E74AA008B6881 /* signin_error_response.json */; };
+		D2E1E844274E77B2008B6881 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E843274E77B2008B6881 /* ProfileViewController.swift */; };
+		D2E1E846274E77CA008B6881 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E845274E77CA008B6881 /* ProfileViewModel.swift */; };
+		D2E1E849274E79CE008B6881 /* profile_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E848274E79CE008B6881 /* profile_success_response.json */; };
+		D2E1E84B274E7A06008B6881 /* password_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E84A274E7A06008B6881 /* password_success_response.json */; };
+		D2E1E84F274E7A4F008B6881 /* profile_error_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E84E274E7A4F008B6881 /* profile_error_response.json */; };
+		D2E1E851274E7A7C008B6881 /* password_error_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E850274E7A7C008B6881 /* password_error_response.json */; };
+		D2E1E854274E7BDD008B6881 /* update_profile_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E853274E7BDD008B6881 /* update_profile_success_response.json */; };
+		D2E1E856274E7BFC008B6881 /* update_profile_error_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E855274E7BFC008B6881 /* update_profile_error_response.json */; };
 		E196F6A4C9B0FE982D8E473C /* Pods_VogChallenge_VogChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A64BC1F80370FCBB593D52 /* Pods_VogChallenge_VogChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -127,6 +135,14 @@
 		D2E1E83A274E7077008B6881 /* SingleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExtensions.swift; sourceTree = "<group>"; };
 		D2E1E83D274E746F008B6881 /* signin_success_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = signin_success_response.json; sourceTree = "<group>"; };
 		D2E1E840274E74AA008B6881 /* signin_error_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = signin_error_response.json; sourceTree = "<group>"; };
+		D2E1E843274E77B2008B6881 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D2E1E845274E77CA008B6881 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		D2E1E848274E79CE008B6881 /* profile_success_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = profile_success_response.json; sourceTree = "<group>"; };
+		D2E1E84A274E7A06008B6881 /* password_success_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = password_success_response.json; sourceTree = "<group>"; };
+		D2E1E84E274E7A4F008B6881 /* profile_error_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = profile_error_response.json; sourceTree = "<group>"; };
+		D2E1E850274E7A7C008B6881 /* password_error_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = password_error_response.json; sourceTree = "<group>"; };
+		D2E1E853274E7BDD008B6881 /* update_profile_success_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = update_profile_success_response.json; sourceTree = "<group>"; };
+		D2E1E855274E7BFC008B6881 /* update_profile_error_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = update_profile_error_response.json; sourceTree = "<group>"; };
 		E7C4024E93DFBD64628187B3 /* Pods-VogChallenge-VogChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -282,6 +298,7 @@
 			children = (
 				D2E1E831274E6A0A008B6881 /* SignIn */,
 				D2E1E802274E5969008B6881 /* Dashboard */,
+				D2E1E842274E779B008B6881 /* Profile */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -400,6 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				D2E1E83F274E748B008B6881 /* SignIn */,
+				D2E1E847274E79A9008B6881 /* Profile */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -411,6 +429,52 @@
 				D2E1E840274E74AA008B6881 /* signin_error_response.json */,
 			);
 			path = SignIn;
+			sourceTree = "<group>";
+		};
+		D2E1E842274E779B008B6881 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E843274E77B2008B6881 /* ProfileViewController.swift */,
+				D2E1E845274E77CA008B6881 /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D2E1E847274E79A9008B6881 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E84C274E7A21008B6881 /* Profile */,
+				D2E1E852274E7BC3008B6881 /* UpdateProfile */,
+				D2E1E84D274E7A2D008B6881 /* Password */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D2E1E84C274E7A21008B6881 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E848274E79CE008B6881 /* profile_success_response.json */,
+				D2E1E84E274E7A4F008B6881 /* profile_error_response.json */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D2E1E84D274E7A2D008B6881 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E84A274E7A06008B6881 /* password_success_response.json */,
+				D2E1E850274E7A7C008B6881 /* password_error_response.json */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		D2E1E852274E7BC3008B6881 /* UpdateProfile */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E853274E7BDD008B6881 /* update_profile_success_response.json */,
+				D2E1E855274E7BFC008B6881 /* update_profile_error_response.json */,
+			);
+			path = UpdateProfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -524,8 +588,14 @@
 			files = (
 				D2E1E7C0274E4ADA008B6881 /* LaunchScreen.storyboard in Resources */,
 				D2E1E841274E74AA008B6881 /* signin_error_response.json in Resources */,
+				D2E1E849274E79CE008B6881 /* profile_success_response.json in Resources */,
+				D2E1E84B274E7A06008B6881 /* password_success_response.json in Resources */,
+				D2E1E84F274E7A4F008B6881 /* profile_error_response.json in Resources */,
 				D2E1E7BD274E4ADA008B6881 /* Assets.xcassets in Resources */,
+				D2E1E851274E7A7C008B6881 /* password_error_response.json in Resources */,
 				D2E1E83E274E746F008B6881 /* signin_success_response.json in Resources */,
+				D2E1E856274E7BFC008B6881 /* update_profile_error_response.json in Resources */,
+				D2E1E854274E7BDD008B6881 /* update_profile_success_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,6 +743,7 @@
 				D2E1E818274E5CD2008B6881 /* NSObjectExtensions.swift in Sources */,
 				D2E1E7FA274E55B4008B6881 /* ProfileResponse.swift in Sources */,
 				D2E1E814274E5C4F008B6881 /* ServiceError.swift in Sources */,
+				D2E1E846274E77CA008B6881 /* ProfileViewModel.swift in Sources */,
 				D2E1E824274E6481008B6881 /* UIViewExtensions.swift in Sources */,
 				D2E1E81E274E60AE008B6881 /* DashboardViewModel.swift in Sources */,
 				D2E1E81C274E5F0F008B6881 /* UIColorExtensions.swift in Sources */,
@@ -687,6 +758,7 @@
 				D2E1E82E274E6913008B6881 /* AuthService.swift in Sources */,
 				D2E1E833274E6A1B008B6881 /* SignInViewController.swift in Sources */,
 				D2E1E830274E693F008B6881 /* SignInResponse.swift in Sources */,
+				D2E1E844274E77B2008B6881 /* ProfileViewController.swift in Sources */,
 				D2E1E816274E5C9C008B6881 /* CustomLoadingView.swift in Sources */,
 				D2E1E7F2274E5406008B6881 /* APIProvider.swift in Sources */,
 			);

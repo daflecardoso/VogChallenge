@@ -14,7 +14,7 @@ class DashboardViewController: BaseViewController {
         $0.setTitleColor(.red, for: .normal)
         $0.type = .outlined
         $0.rx.tap.bind { [unowned self] in
-            
+            self.push(coordinator.makeProfileViewController())
         }.disposed(by: disposeBag)
     }
     

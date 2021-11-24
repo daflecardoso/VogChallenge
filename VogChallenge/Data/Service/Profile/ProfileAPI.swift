@@ -53,6 +53,17 @@ extension ProfileAPI: TargetType {
         }
     }
     
+    var sampleData: Data {
+        switch self {
+        case .profile:
+            return "signin_success_response".jsonData
+        case .updateProfile:
+            return "signin_success_response".jsonData
+        case .updatePassword:
+            return "signin_success_response".jsonData
+        }
+    }
+    
     var headers: [String : String]? {
         return ApiProvider<Self>.headers
     }
