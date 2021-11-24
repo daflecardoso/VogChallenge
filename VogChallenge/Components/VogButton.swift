@@ -26,6 +26,12 @@ class VogButton: UIButton {
         }
     }
     
+    override var isEnabled: Bool {
+        didSet {
+            update()
+        }
+    }
+    
     init() {
         super.init(frame: .zero)
         self.setup()
@@ -47,7 +53,7 @@ class VogButton: UIButton {
         case .outlined:
             layer.cornerRadius = 4
             layer.borderWidth = 1
-            layer.borderColor = titleColor(for: .normal)?.cgColor
+            layer.borderColor = isEnabled ? titleColor(for: .normal)?.cgColor : UIColor.lightGray.cgColor
         }
     }
     

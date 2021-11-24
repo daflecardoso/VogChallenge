@@ -14,7 +14,7 @@ struct ProfileResponse: Decodable {
 
 struct Profile: Decodable {
     let firstName: String
-    let userName: String
+    let userName: String?
     let lastName: String
 }
 

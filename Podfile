@@ -10,6 +10,7 @@ target 'VogChallenge' do
   pod 'NotificationBannerSwift', '~> 3.0.0'
   pod 'SnapKit', '~> 5.0.0'
   pod 'SwiftKeychainWrapper'
+  pod 'RxKeyboard'
   # Pods for VogChallenge
 
   target 'VogChallengeTests' do

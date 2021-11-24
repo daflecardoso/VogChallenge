@@ -9,4 +9,9 @@ import Foundation
 
 struct ProfileUpdateRequest: Codable {
     let firstName, lastName: String
+    let userName: String?
+    
+    var isValid: Bool {
+        return !firstName.isEmpty && !lastName.isEmpty
+    }
 }

@@ -64,6 +64,7 @@
 		D2E1E85A274E7F5E008B6881 /* ProfilePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E859274E7F5E008B6881 /* ProfilePasswordView.swift */; };
 		D2E1E85C274E8201008B6881 /* HeaderInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E85B274E8201008B6881 /* HeaderInfoView.swift */; };
 		D2E1E85E274E83E9008B6881 /* VogFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E85D274E83E9008B6881 /* VogFieldView.swift */; };
+		D2E1E862274EA8A8008B6881 /* DomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E861274EA8A8008B6881 /* DomainTests.swift */; };
 		E196F6A4C9B0FE982D8E473C /* Pods_VogChallenge_VogChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A64BC1F80370FCBB593D52 /* Pods_VogChallenge_VogChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -151,6 +152,7 @@
 		D2E1E859274E7F5E008B6881 /* ProfilePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePasswordView.swift; sourceTree = "<group>"; };
 		D2E1E85B274E8201008B6881 /* HeaderInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderInfoView.swift; sourceTree = "<group>"; };
 		D2E1E85D274E83E9008B6881 /* VogFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogFieldView.swift; sourceTree = "<group>"; };
+		D2E1E861274EA8A8008B6881 /* DomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainTests.swift; sourceTree = "<group>"; };
 		E7C4024E93DFBD64628187B3 /* Pods-VogChallenge-VogChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -250,6 +252,7 @@
 		D2E1E7C9274E4ADB008B6881 /* VogChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				D2E1E85F274EA888008B6881 /* Data */,
 				D2E1E7CA274E4ADB008B6881 /* VogChallengeTests.swift */,
 			);
 			path = VogChallengeTests;
@@ -487,6 +490,22 @@
 				D2E1E855274E7BFC008B6881 /* update_profile_error_response.json */,
 			);
 			path = UpdateProfile;
+			sourceTree = "<group>";
+		};
+		D2E1E85F274EA888008B6881 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E860274EA88D008B6881 /* Domain */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D2E1E860274EA88D008B6881 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E861274EA8A8008B6881 /* DomainTests.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -785,6 +804,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E1E7CB274E4ADB008B6881 /* VogChallengeTests.swift in Sources */,
+				D2E1E862274EA8A8008B6881 /* DomainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

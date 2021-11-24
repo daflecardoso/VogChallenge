@@ -13,9 +13,9 @@ import RxCocoa
 class SignInViewController: BaseViewController {
     
     private lazy var tipLabel = UILabel().apply {
-        $0.text = "Remember: your user is vog and password is vog"
+        $0.text = "Remember: your user is anything and password is anything"
         $0.numberOfLines = 0
-        $0.bold(in: ["user is vog", "password is vog"])
+        $0.bold(in: ["user is anything", "password is anything"])
     }
     
     private lazy var userField = UITextField().apply {

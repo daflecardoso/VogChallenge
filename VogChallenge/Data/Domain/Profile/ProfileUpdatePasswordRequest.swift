@@ -9,4 +9,8 @@ import Foundation
 
 struct ProfileUpdatePasswordRequest: Codable {
     let currentPassword, newPassword, passwordConfirmation: String
+    
+    var isValid: Bool {
+        return newPassword == passwordConfirmation && !newPassword.isEmpty
+    }
 }

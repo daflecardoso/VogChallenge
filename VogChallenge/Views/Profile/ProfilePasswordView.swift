@@ -7,14 +7,19 @@
 
 import Foundation
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ProfilePasswordView: UIView {
     
-    private lazy var headerView = HeaderInfoView(title: "PASSWORD")
+    private let disposeBag = DisposeBag()
+    private let headerView = HeaderInfoView(title: "PASSWORD")
+    private let newPasswordView = VogFieldView(title: "New Password", isSecure: true)
+    private let confirmPasswordView = VogFieldView(title: "Re-enter Password", isSecure: true)
     
     private lazy var stackFields = UIStackView(arrangedSubviews: [
-        VogFieldView(title: "New Password", isSecure: true),
-        VogFieldView(title: "Re-enter Password", isSecure: true)
+        newPasswordView,
+        confirmPasswordView
     ]).apply {
         $0.axis = .vertical
     }
@@ -23,7 +28,12 @@ class ProfilePasswordView: UIView {
         $0.setTitleColor(.white, for: .normal)
         $0.title = "SAVE CHANGES"
         $0.type = .outlined
+        $0.rx.tap.bind { [unowned self] in
+            self.didTapSave?(self.makeRequest())
+        }.disposed(by: disposeBag)
     }
+    
+    var didTapSave: ((ProfileUpdatePasswordRequest) -> Void)?
     
     init() {
         super.init(frame: .zero)
@@ -35,6 +45,11 @@ class ProfilePasswordView: UIView {
     }
     
     private func setup() {
+        setupConstraints()
+        setupBinds()
+    }
+    
+    private func setupConstraints() {
         addSubview(headerView) {
             $0.leading.trailing.top.equalToSuperview()
         }
@@ -47,5 +62,22 @@ class ProfilePasswordView: UIView {
             $0.centerX.equalToSuperview()
             $0.bottom.equalToSuperview()
         }
+    }
+    
+    private func setupBinds() {
+        Observable.combineLatest(
+            newPasswordView.field.rx.controlEvent(.allEvents).startWith(()),
+            confirmPasswordView.field.rx.controlEvent(.allEvents).startWith(()))
+            .map { [unowned self] _ in self.makeRequest().isValid }
+            .startWith(false)
+            .bind(to: saveButton.rx.isEnabled)
+            .disposed(by: disposeBag)
+    }
+    
+    private func makeRequest() -> ProfileUpdatePasswordRequest {
+        return ProfileUpdatePasswordRequest(
+            currentPassword: "",
+            newPassword: newPasswordView.field.textOrEmpty,
+            passwordConfirmation: confirmPasswordView.field.textOrEmpty)
     }
 }

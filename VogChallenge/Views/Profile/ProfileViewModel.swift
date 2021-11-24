@@ -22,6 +22,11 @@ class ProfileViewModel: BaseViewModel {
         return _profile.asDriver(onErrorJustReturn: nil)
     }
     
+    private let _profileUpdated = PublishSubject<String?>()
+    var profileUpdated: Driver<String?> {
+        return _profileUpdated.asDriver(onErrorJustReturn: nil)
+    }
+    
     private let _passwordUpdated = PublishSubject<String?>()
     var passwordUpdated: Driver<String?> {
         return _passwordUpdated.asDriver(onErrorJustReturn: nil)
@@ -43,6 +48,7 @@ class ProfileViewModel: BaseViewModel {
             .loading(isLoading)
             .subscribe(onSuccess: { [unowned self] profileResponse in
                 self._profile.onNext(profileResponse.data)
+                self._profileUpdated.onNext(profileResponse.message)
             }, onFailure: handleError(error:))
             .disposed(by: disposeBag)
     }

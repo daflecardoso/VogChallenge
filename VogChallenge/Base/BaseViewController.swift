@@ -10,6 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 import NotificationBannerSwift
+import RxKeyboard
 
 class BaseViewController: UIViewController {
     
@@ -22,6 +23,10 @@ class BaseViewController: UIViewController {
     
     internal var requestingViews: [UIButton] {
         return []
+    }
+    
+    internal var scrollContentInset: UIScrollView {
+        return UIScrollView()
     }
     
     public init() {
@@ -53,6 +58,14 @@ class BaseViewController: UIViewController {
         bindLoading()
         bindRefreshing()
         bindError()
+        setupRxKeyboard()
+    }
+    
+    private func setupRxKeyboard() {
+        RxKeyboard.instance.visibleHeight
+          .drive(onNext: { [scrollContentInset] keyboardVisibleHeight in
+              scrollContentInset.contentInset.bottom = keyboardVisibleHeight
+          }).disposed(by: disposeBag)
     }
     
     internal func setupLoading() {

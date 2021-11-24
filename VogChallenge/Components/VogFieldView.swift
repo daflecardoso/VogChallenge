@@ -14,13 +14,13 @@ class VogFieldView: UIView {
         $0.text = title
     }
     
-    private lazy var userField = UITextField().apply {
+    lazy var field = UITextField().apply {
         $0.placeholder = title
         $0.autocorrectionType = .no
         $0.isSecureTextEntry = isSecure
     }
     
-    private lazy var stackView = UIStackView(arrangedSubviews: [titleLabel, userField]).apply {
+    private lazy var stackView = UIStackView(arrangedSubviews: [titleLabel, field]).apply {
         $0.axis = .horizontal
         $0.spacing = 8
         $0.distribution = .fillEqually
