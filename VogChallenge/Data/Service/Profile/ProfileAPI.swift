@@ -17,7 +17,7 @@ enum ProfileAPI {
 extension ProfileAPI: TargetType {
     
     var baseURL: URL {
-        return Environment.baseUrl.url
+        return try! Environment.baseUrl.url()
     }
     
     var path: String {

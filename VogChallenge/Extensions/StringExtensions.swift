@@ -9,9 +9,9 @@ import Foundation
 
 extension String {
     
-    var url: URL {
+    func url() throws -> URL {
         guard let _url = URL(string: self) else {
-            fatalError("your url isn't valid")
+            throw ServiceError.generic(message: "your url isn't valid")
         }
         return _url
     }

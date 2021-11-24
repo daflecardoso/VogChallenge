@@ -15,7 +15,7 @@ enum AuthAPI {
 extension AuthAPI: TargetType {
     
     var baseURL: URL {
-        return Environment.baseUrl.url
+        return try! Environment.baseUrl.url()
     }
     
     var path: String {

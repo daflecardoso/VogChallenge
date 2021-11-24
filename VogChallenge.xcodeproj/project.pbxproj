@@ -12,7 +12,6 @@
 		D2E1E7B4274E4AD8008B6881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */; };
 		D2E1E7BD274E4ADA008B6881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */; };
 		D2E1E7C0274E4ADA008B6881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E7BE274E4ADA008B6881 /* LaunchScreen.storyboard */; };
-		D2E1E7CB274E4ADB008B6881 /* VogChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7CA274E4ADB008B6881 /* VogChallengeTests.swift */; };
 		D2E1E7D5274E4ADB008B6881 /* VogChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7D4274E4ADB008B6881 /* VogChallengeUITests.swift */; };
 		D2E1E7D7274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7D6274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift */; };
 		D2E1E7EA274E5096008B6881 /* ProfileAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7E9274E5096008B6881 /* ProfileAPI.swift */; };
@@ -65,6 +64,8 @@
 		D2E1E85C274E8201008B6881 /* HeaderInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E85B274E8201008B6881 /* HeaderInfoView.swift */; };
 		D2E1E85E274E83E9008B6881 /* VogFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E85D274E83E9008B6881 /* VogFieldView.swift */; };
 		D2E1E862274EA8A8008B6881 /* DomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E861274EA8A8008B6881 /* DomainTests.swift */; };
+		D2E1E865274EAA84008B6881 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E864274EAA84008B6881 /* ExtensionTests.swift */; };
+		D2E1E868274EAFD9008B6881 /* SignInViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E867274EAFD9008B6881 /* SignInViewModelTests.swift */; };
 		E196F6A4C9B0FE982D8E473C /* Pods_VogChallenge_VogChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A64BC1F80370FCBB593D52 /* Pods_VogChallenge_VogChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -99,7 +100,6 @@
 		D2E1E7BF274E4ADA008B6881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E1E7C1274E4ADA008B6881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2E1E7C6274E4ADB008B6881 /* VogChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VogChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2E1E7CA274E4ADB008B6881 /* VogChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogChallengeTests.swift; sourceTree = "<group>"; };
 		D2E1E7D0274E4ADB008B6881 /* VogChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VogChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E1E7D4274E4ADB008B6881 /* VogChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogChallengeUITests.swift; sourceTree = "<group>"; };
 		D2E1E7D6274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -153,6 +153,8 @@
 		D2E1E85B274E8201008B6881 /* HeaderInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderInfoView.swift; sourceTree = "<group>"; };
 		D2E1E85D274E83E9008B6881 /* VogFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogFieldView.swift; sourceTree = "<group>"; };
 		D2E1E861274EA8A8008B6881 /* DomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainTests.swift; sourceTree = "<group>"; };
+		D2E1E864274EAA84008B6881 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		D2E1E867274EAFD9008B6881 /* SignInViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModelTests.swift; sourceTree = "<group>"; };
 		E7C4024E93DFBD64628187B3 /* Pods-VogChallenge-VogChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -252,8 +254,9 @@
 		D2E1E7C9274E4ADB008B6881 /* VogChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				D2E1E866274EAE62008B6881 /* Views */,
+				D2E1E863274EAA72008B6881 /* Extensions */,
 				D2E1E85F274EA888008B6881 /* Data */,
-				D2E1E7CA274E4ADB008B6881 /* VogChallengeTests.swift */,
 			);
 			path = VogChallengeTests;
 			sourceTree = "<group>";
@@ -506,6 +509,30 @@
 				D2E1E861274EA8A8008B6881 /* DomainTests.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		D2E1E863274EAA72008B6881 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E864274EAA84008B6881 /* ExtensionTests.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D2E1E866274EAE62008B6881 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E869274EAFF8008B6881 /* SignIn */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D2E1E869274EAFF8008B6881 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E867274EAFD9008B6881 /* SignInViewModelTests.swift */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -803,7 +830,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E1E7CB274E4ADB008B6881 /* VogChallengeTests.swift in Sources */,
+				D2E1E865274EAA84008B6881 /* ExtensionTests.swift in Sources */,
+				D2E1E868274EAFD9008B6881 /* SignInViewModelTests.swift in Sources */,
 				D2E1E862274EA8A8008B6881 /* DomainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

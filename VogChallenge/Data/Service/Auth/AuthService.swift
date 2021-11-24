@@ -9,7 +9,7 @@ import Foundation
 import RxSwift
 
 protocol AuthServiceContract {
-    func signIn(request: SignInRequest) -> Single<SingInResponse>
+    func signIn(request: SignInRequest) -> Single<SignInResponse>
 }
 
 class AuthService: AuthServiceContract {
@@ -19,7 +19,7 @@ class AuthService: AuthServiceContract {
      */
     private let provider = ApiProvider<AuthAPI>(stub: true)
     
-    func signIn(request: SignInRequest) -> Single<SingInResponse> {
-        return provider.rx.request(.signIn(request)).map(SingInResponse.self)
+    func signIn(request: SignInRequest) -> Single<SignInResponse> {
+        return provider.rx.request(.signIn(request)).map(SignInResponse.self)
     }
 }

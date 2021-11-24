@@ -18,6 +18,7 @@ protocol KeyChainCacheContract {
     func remove(forKey: KeyChainCacheKey)
     func get<T: Codable>(forKey: KeyChainCacheKey) -> T?
     func removeSignInData()
+    func token() -> String
 }
 
 class KeyChainCache: KeyChainCacheContract {
@@ -40,7 +41,6 @@ class KeyChainCache: KeyChainCacheContract {
         if let savedData = KeychainWrapper.standard.data(forKey: key.rawValue) {
             let decoder = JSONDecoder()
             if let item = try? decoder.decode(T.self, from: savedData) {
-                // print("value for key: \(key.rawValue) is ", item)
                 return item
             }
         }
