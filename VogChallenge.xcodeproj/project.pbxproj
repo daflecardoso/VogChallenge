@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2E1E7B4274E4AD8008B6881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */; };
+		D2E1E7B6274E4AD8008B6881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7B5274E4AD8008B6881 /* SceneDelegate.swift */; };
+		D2E1E7B8274E4AD8008B6881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7B7274E4AD8008B6881 /* ViewController.swift */; };
+		D2E1E7BB274E4AD8008B6881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E7B9274E4AD8008B6881 /* Main.storyboard */; };
+		D2E1E7BD274E4ADA008B6881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */; };
+		D2E1E7C0274E4ADA008B6881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E7BE274E4ADA008B6881 /* LaunchScreen.storyboard */; };
+		D2E1E7CB274E4ADB008B6881 /* VogChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7CA274E4ADB008B6881 /* VogChallengeTests.swift */; };
+		D2E1E7D5274E4ADB008B6881 /* VogChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7D4274E4ADB008B6881 /* VogChallengeUITests.swift */; };
+		D2E1E7D7274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E7D6274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2E1E7C7274E4ADB008B6881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2E1E7A8274E4AD8008B6881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E1E7AF274E4AD8008B6881;
+			remoteInfo = VogChallenge;
+		};
+		D2E1E7D1274E4ADB008B6881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2E1E7A8274E4AD8008B6881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E1E7AF274E4AD8008B6881;
+			remoteInfo = VogChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2E1E7B0274E4AD8008B6881 /* VogChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VogChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2E1E7B5274E4AD8008B6881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2E1E7B7274E4AD8008B6881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2E1E7BA274E4AD8008B6881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2E1E7BF274E4ADA008B6881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2E1E7C1274E4ADA008B6881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E1E7C6274E4ADB008B6881 /* VogChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VogChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E1E7CA274E4ADB008B6881 /* VogChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogChallengeTests.swift; sourceTree = "<group>"; };
+		D2E1E7D0274E4ADB008B6881 /* VogChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VogChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E1E7D4274E4ADB008B6881 /* VogChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogChallengeUITests.swift; sourceTree = "<group>"; };
+		D2E1E7D6274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2E1E7AD274E4AD8008B6881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E1E7C3274E4ADB008B6881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E1E7CD274E4ADB008B6881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2E1E7A7274E4AD8008B6881 = {
+			isa = PBXGroup;
+			children = (
+				D2E1E7B2274E4AD8008B6881 /* VogChallenge */,
+				D2E1E7C9274E4ADB008B6881 /* VogChallengeTests */,
+				D2E1E7D3274E4ADB008B6881 /* VogChallengeUITests */,
+				D2E1E7B1274E4AD8008B6881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E1E7B1274E4AD8008B6881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E7B0274E4AD8008B6881 /* VogChallenge.app */,
+				D2E1E7C6274E4ADB008B6881 /* VogChallengeTests.xctest */,
+				D2E1E7D0274E4ADB008B6881 /* VogChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2E1E7B2274E4AD8008B6881 /* VogChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E7B3274E4AD8008B6881 /* AppDelegate.swift */,
+				D2E1E7B5274E4AD8008B6881 /* SceneDelegate.swift */,
+				D2E1E7B7274E4AD8008B6881 /* ViewController.swift */,
+				D2E1E7B9274E4AD8008B6881 /* Main.storyboard */,
+				D2E1E7BC274E4ADA008B6881 /* Assets.xcassets */,
+				D2E1E7BE274E4ADA008B6881 /* LaunchScreen.storyboard */,
+				D2E1E7C1274E4ADA008B6881 /* Info.plist */,
+			);
+			path = VogChallenge;
+			sourceTree = "<group>";
+		};
+		D2E1E7C9274E4ADB008B6881 /* VogChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E7CA274E4ADB008B6881 /* VogChallengeTests.swift */,
+			);
+			path = VogChallengeTests;
+			sourceTree = "<group>";
+		};
+		D2E1E7D3274E4ADB008B6881 /* VogChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1E7D4274E4ADB008B6881 /* VogChallengeUITests.swift */,
+				D2E1E7D6274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift */,
+			);
+			path = VogChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2E1E7AF274E4AD8008B6881 /* VogChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E1E7DA274E4ADB008B6881 /* Build configuration list for PBXNativeTarget "VogChallenge" */;
+			buildPhases = (
+				D2E1E7AC274E4AD8008B6881 /* Sources */,
+				D2E1E7AD274E4AD8008B6881 /* Frameworks */,
+				D2E1E7AE274E4AD8008B6881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VogChallenge;
+			productName = VogChallenge;
+			productReference = D2E1E7B0274E4AD8008B6881 /* VogChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2E1E7C5274E4ADB008B6881 /* VogChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E1E7DD274E4ADB008B6881 /* Build configuration list for PBXNativeTarget "VogChallengeTests" */;
+			buildPhases = (
+				D2E1E7C2274E4ADB008B6881 /* Sources */,
+				D2E1E7C3274E4ADB008B6881 /* Frameworks */,
+				D2E1E7C4274E4ADB008B6881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E1E7C8274E4ADB008B6881 /* PBXTargetDependency */,
+			);
+			name = VogChallengeTests;
+			productName = VogChallengeTests;
+			productReference = D2E1E7C6274E4ADB008B6881 /* VogChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2E1E7CF274E4ADB008B6881 /* VogChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E1E7E0274E4ADB008B6881 /* Build configuration list for PBXNativeTarget "VogChallengeUITests" */;
+			buildPhases = (
+				D2E1E7CC274E4ADB008B6881 /* Sources */,
+				D2E1E7CD274E4ADB008B6881 /* Frameworks */,
+				D2E1E7CE274E4ADB008B6881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E1E7D2274E4ADB008B6881 /* PBXTargetDependency */,
+			);
+			name = VogChallengeUITests;
+			productName = VogChallengeUITests;
+			productReference = D2E1E7D0274E4ADB008B6881 /* VogChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2E1E7A8274E4AD8008B6881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D2E1E7AF274E4AD8008B6881 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D2E1E7C5274E4ADB008B6881 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D2E1E7AF274E4AD8008B6881;
+					};
+					D2E1E7CF274E4ADB008B6881 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D2E1E7AF274E4AD8008B6881;
+					};
+				};
+			};
+			buildConfigurationList = D2E1E7AB274E4AD8008B6881 /* Build configuration list for PBXProject "VogChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2E1E7A7274E4AD8008B6881;
+			productRefGroup = D2E1E7B1274E4AD8008B6881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2E1E7AF274E4AD8008B6881 /* VogChallenge */,
+				D2E1E7C5274E4ADB008B6881 /* VogChallengeTests */,
+				D2E1E7CF274E4ADB008B6881 /* VogChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2E1E7AE274E4AD8008B6881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E1E7C0274E4ADA008B6881 /* LaunchScreen.storyboard in Resources */,
+				D2E1E7BD274E4ADA008B6881 /* Assets.xcassets in Resources */,
+				D2E1E7BB274E4AD8008B6881 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E1E7C4274E4ADB008B6881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E1E7CE274E4ADB008B6881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2E1E7AC274E4AD8008B6881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E1E7B8274E4AD8008B6881 /* ViewController.swift in Sources */,
+				D2E1E7B4274E4AD8008B6881 /* AppDelegate.swift in Sources */,
+				D2E1E7B6274E4AD8008B6881 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E1E7C2274E4ADB008B6881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E1E7CB274E4ADB008B6881 /* VogChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E1E7CC274E4ADB008B6881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E1E7D5274E4ADB008B6881 /* VogChallengeUITests.swift in Sources */,
+				D2E1E7D7274E4ADB008B6881 /* VogChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2E1E7C8274E4ADB008B6881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E1E7AF274E4AD8008B6881 /* VogChallenge */;
+			targetProxy = D2E1E7C7274E4ADB008B6881 /* PBXContainerItemProxy */;
+		};
+		D2E1E7D2274E4ADB008B6881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E1E7AF274E4AD8008B6881 /* VogChallenge */;
+			targetProxy = D2E1E7D1274E4ADB008B6881 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2E1E7B9274E4AD8008B6881 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E1E7BA274E4AD8008B6881 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2E1E7BE274E4ADA008B6881 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E1E7BF274E4ADA008B6881 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2E1E7D8274E4ADB008B6881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2E1E7D9274E4ADB008B6881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2E1E7DB274E4ADB008B6881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX5JM8SFG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VogChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VogChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2E1E7DC274E4ADB008B6881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX5JM8SFG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VogChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VogChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2E1E7DE274E4ADB008B6881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX5JM8SFG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VogChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VogChallenge.app/VogChallenge";
+			};
+			name = Debug;
+		};
+		D2E1E7DF274E4ADB008B6881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX5JM8SFG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VogChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VogChallenge.app/VogChallenge";
+			};
+			name = Release;
+		};
+		D2E1E7E1274E4ADB008B6881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX5JM8SFG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VogChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VogChallenge;
+			};
+			name = Debug;
+		};
+		D2E1E7E2274E4ADB008B6881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX5JM8SFG9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VogChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VogChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2E1E7AB274E4AD8008B6881 /* Build configuration list for PBXProject "VogChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E1E7D8274E4ADB008B6881 /* Debug */,
+				D2E1E7D9274E4ADB008B6881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E1E7DA274E4ADB008B6881 /* Build configuration list for PBXNativeTarget "VogChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E1E7DB274E4ADB008B6881 /* Debug */,
+				D2E1E7DC274E4ADB008B6881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E1E7DD274E4ADB008B6881 /* Build configuration list for PBXNativeTarget "VogChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E1E7DE274E4ADB008B6881 /* Debug */,
+				D2E1E7DF274E4ADB008B6881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E1E7E0274E4ADB008B6881 /* Build configuration list for PBXNativeTarget "VogChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E1E7E1274E4ADB008B6881 /* Debug */,
+				D2E1E7E2274E4ADB008B6881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2E1E7A8274E4AD8008B6881 /* Project object */;
+}
