@@ -56,11 +56,11 @@ extension ProfileAPI: TargetType {
     var sampleData: Data {
         switch self {
         case .profile:
-            return "signin_success_response".jsonData
+            return "profile_success_response".jsonData
         case .updateProfile:
-            return "signin_success_response".jsonData
+            return "update_profile_success_response".jsonData
         case .updatePassword:
-            return "signin_success_response".jsonData
+            return "password_success_response".jsonData
         }
     }
     

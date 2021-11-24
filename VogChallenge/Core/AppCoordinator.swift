@@ -53,7 +53,8 @@ class AppCoordinator {
     }
     
     func makeProfileViewController() -> ProfileViewController {
-        let viewModel = ProfileViewModel()
+        let profileService = ProfileService()
+        let viewModel = ProfileViewModel(profileService: profileService)
         return ProfileViewController(viewModel: viewModel)
     }
 }

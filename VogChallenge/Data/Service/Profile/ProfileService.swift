@@ -16,7 +16,7 @@ protocol ProfileServiceContract {
 
 class ProfileService: ProfileServiceContract {
     
-    private let provider = ApiProvider<ProfileAPI>.init()
+    private let provider = ApiProvider<ProfileAPI>(stub: true)
     
     func profile() -> Single<ProfileResponse> {
         return provider.rx.request(.profile).map(ProfileResponse.self)

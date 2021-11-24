@@ -39,6 +39,7 @@ class VogButton: UIButton {
     private func setup() {
         contentEdgeInsets = .init(top: 8, left: 12, bottom: 8, right: 12)
         setTitleColor(.lightGray, for: .disabled)
+        titleLabel?.font = UIFont.systemFont(ofSize: 14)
     }
     
     private func update() {

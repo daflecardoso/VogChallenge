@@ -60,6 +60,10 @@
 		D2E1E851274E7A7C008B6881 /* password_error_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E850274E7A7C008B6881 /* password_error_response.json */; };
 		D2E1E854274E7BDD008B6881 /* update_profile_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E853274E7BDD008B6881 /* update_profile_success_response.json */; };
 		D2E1E856274E7BFC008B6881 /* update_profile_error_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D2E1E855274E7BFC008B6881 /* update_profile_error_response.json */; };
+		D2E1E858274E7F3D008B6881 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E857274E7F3D008B6881 /* ProfileView.swift */; };
+		D2E1E85A274E7F5E008B6881 /* ProfilePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E859274E7F5E008B6881 /* ProfilePasswordView.swift */; };
+		D2E1E85C274E8201008B6881 /* HeaderInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E85B274E8201008B6881 /* HeaderInfoView.swift */; };
+		D2E1E85E274E83E9008B6881 /* VogFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E1E85D274E83E9008B6881 /* VogFieldView.swift */; };
 		E196F6A4C9B0FE982D8E473C /* Pods_VogChallenge_VogChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A64BC1F80370FCBB593D52 /* Pods_VogChallenge_VogChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +147,10 @@
 		D2E1E850274E7A7C008B6881 /* password_error_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = password_error_response.json; sourceTree = "<group>"; };
 		D2E1E853274E7BDD008B6881 /* update_profile_success_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = update_profile_success_response.json; sourceTree = "<group>"; };
 		D2E1E855274E7BFC008B6881 /* update_profile_error_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = update_profile_error_response.json; sourceTree = "<group>"; };
+		D2E1E857274E7F3D008B6881 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D2E1E859274E7F5E008B6881 /* ProfilePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePasswordView.swift; sourceTree = "<group>"; };
+		D2E1E85B274E8201008B6881 /* HeaderInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderInfoView.swift; sourceTree = "<group>"; };
+		D2E1E85D274E83E9008B6881 /* VogFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogFieldView.swift; sourceTree = "<group>"; };
 		E7C4024E93DFBD64628187B3 /* Pods-VogChallenge-VogChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VogChallenge-VogChallengeUITests/Pods-VogChallenge-VogChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F740AE916EF1589E113791AB /* Pods_VogChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -289,6 +297,8 @@
 			children = (
 				D2E1E815274E5C9C008B6881 /* CustomLoadingView.swift */,
 				D2E1E821274E62DB008B6881 /* VogButton.swift */,
+				D2E1E85B274E8201008B6881 /* HeaderInfoView.swift */,
+				D2E1E85D274E83E9008B6881 /* VogFieldView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -436,6 +446,8 @@
 			children = (
 				D2E1E843274E77B2008B6881 /* ProfileViewController.swift */,
 				D2E1E845274E77CA008B6881 /* ProfileViewModel.swift */,
+				D2E1E857274E7F3D008B6881 /* ProfileView.swift */,
+				D2E1E859274E7F5E008B6881 /* ProfilePasswordView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -724,6 +736,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E1E81A274E5D15008B6881 /* Constants.swift in Sources */,
+				D2E1E858274E7F3D008B6881 /* ProfileView.swift in Sources */,
 				D2E1E820274E6140008B6881 /* AppCoordinator.swift in Sources */,
 				D2E1E800274E573C008B6881 /* ProfileUpdatePasswordResponse.swift in Sources */,
 				D2E1E83B274E7077008B6881 /* SingleExtensions.swift in Sources */,
@@ -733,9 +746,11 @@
 				D2E1E822274E62DB008B6881 /* VogButton.swift in Sources */,
 				D2E1E7FC274E5681008B6881 /* ProfileUpdateRequest.swift in Sources */,
 				D2E1E7F0274E5298008B6881 /* StringExtensions.swift in Sources */,
+				D2E1E85A274E7F5E008B6881 /* ProfilePasswordView.swift in Sources */,
 				D2E1E835274E6A45008B6881 /* SignInViewModel.swift in Sources */,
 				D2E1E807274E59AC008B6881 /* BaseViewController.swift in Sources */,
 				D2E1E7EE274E5181008B6881 /* Enviroment.swift in Sources */,
+				D2E1E85E274E83E9008B6881 /* VogFieldView.swift in Sources */,
 				D2E1E839274E6E4D008B6881 /* UITextFieldExtensions.swift in Sources */,
 				D2E1E7F6274E5551008B6881 /* ProfileService.swift in Sources */,
 				D2E1E804274E598F008B6881 /* DashboardViewController.swift in Sources */,
@@ -746,6 +761,7 @@
 				D2E1E846274E77CA008B6881 /* ProfileViewModel.swift in Sources */,
 				D2E1E824274E6481008B6881 /* UIViewExtensions.swift in Sources */,
 				D2E1E81E274E60AE008B6881 /* DashboardViewModel.swift in Sources */,
+				D2E1E85C274E8201008B6881 /* HeaderInfoView.swift in Sources */,
 				D2E1E81C274E5F0F008B6881 /* UIColorExtensions.swift in Sources */,
 				D2E1E809274E59E3008B6881 /* BaseViewModel.swift in Sources */,
 				D2E1E829274E6862008B6881 /* AuthAPI.swift in Sources */,

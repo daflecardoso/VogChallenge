@@ -58,6 +58,10 @@ extension UIColor {
         }
     }()
     
+    public static var defaultRed: UIColor {
+        return UIColor(red: 155, green: 9, blue: 26)
+    }
+    
     convenience init(red: Int, green: Int, blue: Int) {
         assert(red >= 0 && red <= 255, "Invalid red component")
         assert(green >= 0 && green <= 255, "Invalid green component")
